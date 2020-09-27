@@ -6,7 +6,7 @@ using namespace std;
 #define mod 1000000007
 
 ll phi[1000001] = {0};
-void preCalc() {
+void phiCalc() {
     phi[1] = 1;
     for(ll i = 0 ; i < 1000001 ; i++) {
         phi[i] = i;

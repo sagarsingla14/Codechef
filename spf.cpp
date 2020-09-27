@@ -40,11 +40,6 @@ void sieve()
 					spf[j] = i;
 		}
 	}
-
-    for(int i = 0 ; i <= 24 ; i++) {
-        cout << spf[i] << " ";
-    }
-    cout << endl;
 }
 
 // A O(log n) function returning primefactorization

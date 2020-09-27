@@ -78,8 +78,6 @@ int main() {
         pairs.clear();
         cin >> n >> k;
         cin >> s;
-
-
         cheat();
         solve();
 	}

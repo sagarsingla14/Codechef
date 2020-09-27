@@ -55,6 +55,7 @@ int main() {
     ll n , e;
     cin >> n >> e;
     vector <Node*> v;
+
     for(ll i = 0 ; i < e ; i++) {
         ll a , b , weight;
         cin >> a >> b >> weight;
@@ -64,6 +65,7 @@ int main() {
         temp -> w = weight;
         v.push_back(temp);
     }
+
     sort(v.begin() , v.end() , comp);
 
     make_Set(n);
@@ -71,6 +73,7 @@ int main() {
     for(ll i = 0 ; i < e ; i++) {
         Union(v[i] -> u , v[i] -> v , i);
     }
+
     ll sum = 0;
     for(ll j = 0 ; j < ans.size() ; j++) {
         ll i = ans[j];

@@ -1,0 +1,200 @@
+50
+Case #1: N
+0
+Case #2: Y
+0
+Case #3: Y
+0
+Case #4: Y
+0
+Case #5: Y
+0
+Case #6: Y
+0
+Case #7: Y
+0
+Case #8: Y
+0
+Case #9: Y
+0
+Case #10: Y
+0
+Case #11: Y
+0
+Case #12: Y
+0
+Case #13: Y
+0
+Case #14: Y
+0
+Case #15: Y
+0
+Case #16: Y
+0
+Case #17: Y
+0
+Case #18: Y
+0
+Case #19: Y
+0
+Case #20: Y
+0
+Case #21: Y
+0
+Case #22: Y
+0
+Case #23: Y
+0
+Case #24: Y
+0
+Case #25: Y
+0
+Case #26: Y
+0
+Case #27: Y
+0
+Case #28: Y
+0
+Case #29: Y
+0
+Case #30: Y
+0
+Case #31: Y
+0
+Case #32: Y
+0
+Case #33: Y
+0
+Case #34: Y
+0
+Case #35: Y
+0
+Case #36: Y
+0
+Case #37: Y
+0
+Case #38: Y
+0
+Case #39: Y
+0
+Case #40: Y
+0
+Case #41: Y
+0
+Case #42: Y
+0
+Case #43: Y
+0
+Case #44: Y
+0
+Case #45: Y
+0
+Case #46: Y
+0
+Case #47: Y
+0
+Case #48: Y
+0
+Case #49: Y
+0
+Case #50: Y
+0
+Case #51: Y
+0
+Case #52: Y
+0
+Case #53: Y
+0
+Case #54: Y
+0
+Case #55: Y
+0
+Case #56: Y
+0
+Case #57: Y
+0
+Case #58: Y
+0
+Case #59: Y
+0
+Case #60: Y
+0
+Case #61: Y
+0
+Case #62: Y
+0
+Case #63: Y
+0
+Case #64: Y
+0
+Case #65: Y
+0
+Case #66: Y
+0
+Case #67: Y
+0
+Case #68: Y
+0
+Case #69: Y
+0
+Case #70: Y
+0
+Case #71: Y
+0
+Case #72: Y
+0
+Case #73: Y
+0
+Case #74: Y
+0
+Case #75: Y
+0
+Case #76: Y
+0
+Case #77: Y
+0
+Case #78: Y
+0
+Case #79: Y
+0
+Case #80: Y
+0
+Case #81: Y
+0
+Case #82: Y
+0
+Case #83: Y
+0
+Case #84: Y
+0
+Case #85: Y
+0
+Case #86: Y
+0
+Case #87: Y
+0
+Case #88: Y
+0
+Case #89: Y
+0
+Case #90: Y
+0
+Case #91: Y
+0
+Case #92: Y
+0
+Case #93: Y
+0
+Case #94: Y
+0
+Case #95: Y
+0
+Case #96: Y
+0
+Case #97: Y
+0
+Case #98: Y
+0
+Case #99: Y
+0
+Case #100: Y

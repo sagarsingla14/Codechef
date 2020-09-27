@@ -15,10 +15,10 @@ ll taskOfPairing(vector<ll> arr) {
         }
     }
 
-    for(auto i : v) {
-        cout << i << " ";
-    }
-    cout << endl;
+    // for(auto i : v) {
+    //     cout << i << " ";
+    // }
+    // cout << endl;
 
     if(v.size() >= 2) {
         for(ll i = 1 ; i < v.size() ; i++) {

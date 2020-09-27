@@ -4,8 +4,8 @@ using namespace std;
 ll n , m , ans;
 vector <pair <pair <ll , ll> , ll> > v;
 
-ll parent[10001];
-ll rnk[10001];
+ll parent[100001];
+ll rnk[100001];
 
 void make_Set() {
     for(ll i = 0 ; i <= n ; i++) {
@@ -58,7 +58,7 @@ void kruskals() {
     }
 }
 
-bool sortBySec(pair <pair <ll , ll> , ll> a , pair <pair <ll , ll> , ll> b) {
+bool comp(pair <pair <ll , ll> , ll> a , pair <pair <ll , ll> , ll> b) {
     return a.second < b.second;
 }
 
@@ -73,7 +73,7 @@ int main() {
         v.push_back(pp);
     }
 
-    sort(v.begin() , v.end() , sortBySec);
+    sort(v.begin() , v.end() , comp);
 
     ans = 0;
     memset(parent , 0 , sizeof(parent));

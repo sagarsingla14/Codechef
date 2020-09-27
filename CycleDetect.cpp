@@ -2,7 +2,7 @@
 #define ll long long int
 using namespace std;
 
-// CYCLE DETECTION IN GRAPH USING DSU (ONLY IN CASE OF UNDIRECTED GRAP  qa`3456789HS)
+// CYCLE DETECTION IN GRAPH USING DSU (ONLY IN CASE OF UNDIRECTED GRAPH)
 ll parent[100001];
 ll rnk[100001];
 ll cycle;

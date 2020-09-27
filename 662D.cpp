@@ -1,0 +1,58 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long int
+#define ld long double
+#define fast_io ios_base::sync_with_stdio(false); cin.tie(NULL);
+#define mod 1000000007
+#define INFI 1000000000000000000
+
+ll power(ll x , ll y) {
+    ll res = 1;
+    while(y) {
+        if(y & 1ll) {
+            res *= x;
+        }
+        x *= x;
+        y >>= 1ll;
+    }
+    return res;
+}
+
+int main() {
+    ll t;
+    cin >> t;
+    while(t--) {
+        ll n;
+        cin >> n;
+        ll arr[n] = {0};
+        map <ll , ll> mp , freq;
+        for(ll i = 0 ; i < n ; i++) {
+            cin >> arr[i];
+            freq[arr[i]] ++;
+        }
+
+        for(auto i : freq) {
+            mp[i.second] ++;
+        }
+
+        ll mx = 0;
+        for(auto i : mp) {
+            mx = max(i.first , mx);
+        }
+
+        ll cnt = 0 , sum = 0;
+        for(auto i : freq) {
+            if(i.second == mx) {
+                cnt ++;
+            }
+            else {
+                sum += i.second;
+            }
+        }
+        cnt --;
+
+        cnt += sum / (mx - 1);
+        cout << cnt << endl;
+    }
+    return 0;
+}

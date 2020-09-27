@@ -1,42 +1,25 @@
-
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long int
+#define ld long double
+#define fast_io ios_base::sync_with_stdio(false); cin.tie(NULL);
 
-#define PB push_back
-#define F first
-#define S second
-#define MP make_pair
-#define LL long long
-#define ULL unsigned long long
-#define LB lower_bound
-#define MOD1 1000000007
-#define MOD2 1000000009
-const int MAX_N = 2 * 1e5;
-
-int main()
-{
-    int t;
+int main() {
+    ll t;
     cin >> t;
-    while (t--)
-    {
-        string s;
-        cin >> s;
+    while(t--) {
+        string str;
+        cin >> str;
+        ll n = str.length();
 
-        int n = s.size();
-        if(!n) {
-            cout << "" << "\n";
-            continue;
+        string s = "";
+        s += str[0];
+        for(ll i = 2 ; i <= n - 2 ; i += 2) {
+            s += str[i];
         }
 
-        string ans;
-        ans.push_back(s[0]);
-        for(int i = 1; i < s.size(); i+=2)
-        {
-            ans.push_back(s[i]);
-        }
-
-        cout << ans << "\n";
+        s += str[n - 1];
+        cout << s << endl;
     }
-
     return 0;
 }

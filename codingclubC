@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long int
+#define ld long double
+#define fast_io ios_base::sync_with_stdio(false); cin.tie(NULL);
+const ll mod = 1e9 + 7;
+
+int main() {
+    ll t;
+    cin >> t;
+    map <string , ll> a , b;
+    while(t--) {
+
+        set <string> s;
+        for(ll i = 0;  i < 3 ; i++) {
+            string aa , bb;
+            cin >> aa >> bb;
+            s.insert(aa);
+            s.insert(bb);
+            a[aa] ++;
+            b[bb] ++;
+        }
+
+        if(s.size() <= 3) {
+            if(s.size() == 3) {
+                if(a.size() == b.size() && a.size() == 3)   {
+                    cout << "Valid" << endl;
+                }
+                else{
+                    cout << "Invalid" << endl;
+                }
+            }
+            else{
+                    cout << "Invalid" << endl;
+            }
+        }
+        else{
+            cout << "Invalid" << endl;
+        }
+    }
+    return 0;
+}

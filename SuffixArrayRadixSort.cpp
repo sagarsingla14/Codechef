@@ -42,11 +42,12 @@ void radix_sort(vector <pair <pair <ll , ll> , ll>> &a) {
 
 int main() {
     fast_io
+
     string str;
     cin >> str;
     str += "$";
-    ll n = str.length();
 
+    ll n = str.length();
     vector <pair <char , ll>> a;
     for(ll i = 0 ; i < n ; i++) {
         a.push_back({str[i] , i});
@@ -92,9 +93,18 @@ int main() {
         k ++;
     }
 
-    for(ll i = 0 ; i < n ; i++) {
-        cout << p[i] << " ";
+    string ans = str.substr(p[n - 1]);
+    
+    string newAns = "";
+    for(ll i = 0 ; i < ans.size() - 1 ; i++) {
+        newAns += ans[i];
     }
-    cout << endl;
+
+    cout << newAns << endl;
+
+    // for(ll i = 1 ; i < n ; i++) {
+    //     cout << p[i] << " " << str.substr(p[i]) << endl;
+    // }
+    // cout << endl;
     return 0;
 }

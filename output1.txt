@@ -1,0 +1,24 @@
+1
+Case #1: Y
+3
+Case #2: N
+1
+Case #3: Y
+3
+Case #4: N
+1
+Case #5: Y
+5
+Case #6: N
+1
+Case #7: Y
+21
+Case #8: N
+1
+Case #9: Y
+3
+Case #10: N
+1
+Case #11: Y
+1929
+Case #12: N

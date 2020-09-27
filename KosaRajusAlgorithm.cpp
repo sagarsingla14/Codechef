@@ -21,11 +21,11 @@ void dfs(ll start) {
 
 // KosaRajus Algorithm for finding strongly connected components..
 vector <ll> curCompon;
-void Tarjans(ll start) {
+void KosaRajus(ll start) {
     visited[start] = 1;
     for(auto i : rgraph[start]) {
         if(!visited[i]) {
-            Tarjans(i);
+            KosaRajus(i);
         }
     }
     curCompon.push_back(start);
@@ -36,7 +36,7 @@ void findComponent() {
     while (!s.empty()) {
         ll start = s.top();
         if(!visited[start]) {
-            Tarjans(start);
+            KosaRajus(start);
             component.push_back(curCompon);
             curCompon.clear();
             s.pop();

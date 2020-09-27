@@ -32,7 +32,8 @@ int main() {
     while(q--) {
         ll l , r;
         cin >> l >> r;
-        cout << dp[r] - dp[l - 1] << endl;
+        cout << dp[r] - dp[l - 1] << endl
+        ;
     }
     return 0;
 }

@@ -22,7 +22,6 @@ void setArr() {
         }
 
         s += str;
-
         cout << s << endl;
     }
 }

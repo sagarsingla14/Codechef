@@ -14,7 +14,7 @@ void calcSparseTable() {
     for(ll i = 0 ; i < n ; i++) {
         st[i][0] = arr[i];
     }
-
+    
     for(ll j = 1 ; j <= k ; j ++) {
         for(ll i = 0 ; (i + (1ll << j)) <= n ; i++) {
             st[i][j] = min(st[i][j - 1] , st[i + (1ll << (j - 1))][j - 1]);
